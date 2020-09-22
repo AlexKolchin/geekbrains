@@ -9,7 +9,8 @@ old_list = [1, -3, 4, -2, 5, 17, -34, 23, -67, 43, -32, -7, 67, 56, -78]
 def change_list(numbers):
     new_list = [number**2 if number > 0 else number for number in numbers]
     return new_list
-print(old_list)
+print('Old list - ', old_list)
 result = change_list(old_list)
-print(result)
+print('New list - ', result)
+
 
